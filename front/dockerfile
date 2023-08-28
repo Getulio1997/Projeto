@@ -1,0 +1,3 @@
+FROM nginx:latest
+
+COPY ./front/crud /usr/share/nginx/html/
